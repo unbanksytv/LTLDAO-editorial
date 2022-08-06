@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-3000 {
+    animation-delay: 3s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+body {
+  background-color: #14101A;
+}
+
+.hover-underline-animation {
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -10px;
+  left: 0;
+  background: rgb(255,0,243);
+  background: linear-gradient(90deg, rgba(255,0,243,1) 0%, rgba(126,0,255,1) 100%);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.reactMarkDown h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown h5 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown p {
+  overflow-wrap: break-word;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+  opacity: 0.75;
+}
+
+.reactMarkDown ul {
+  padding-left: 40px;
+  list-style: disc;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.75;
+  margin-bottom: 1rem;
+}
+
+.reactMarkDown code[class*='language-'] {
+  -webkit-overflow-scrolling: touch;
+}
+pre {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height:1.2em;
+  background: linear-gradient(180deg,#ccc 0,#ccc 1.2em,#eee 0);
+  background-size:2.4em 2.4em;
+  background-origin:content-box;
+  color: black;
+  /* some extra styles*/
+  font-size: small;
+  padding:0 20px;
+  text-align:justify;
+  font-family:calibri,arial,sans-serif;
+}
+.reactMarkDown pre[class~='language-bash']::before {
+  content: 'bash';
+  background: var(--hover-color);
+  color: var(--color);
+}
+
+.reactMarkDown pre[class~='language-js']::before {
+  content: 'js';
+  background: var(--hover-color);
+  color: var(--color);
+}
+
+.reactMarkDown pre[class~='language-python']::before {
+  content: 'python';
+  background: var(--hover-color);
+  color: var(--color);
+}
