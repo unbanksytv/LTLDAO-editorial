@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="text-white font-extrabold text-7xl">
             Join Live The Life to onboard{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-pink-500">
-              Developers
+              Visual Storytellers
             </span>{" "}
             to Web3
           </span>
