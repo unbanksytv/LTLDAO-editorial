@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-pink-500">
               Visual Storytellers
             </span>{" "}
-            to Web3 & the magic of NFTs
+            to Web3 & NFTfi
           </span>
           <span className="text-white opacity-60 font-bold text-2xl mt-4">
             We're a creators DAO producing web3 education.
