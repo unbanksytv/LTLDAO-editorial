@@ -12,14 +12,14 @@ const Hero = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-pink-500">
               Visual Storytellers
             </span>{" "}
-            to Web3
+            to Web3 & the magic of NFTs
           </span>
           <span className="text-white opacity-60 font-bold text-2xl mt-4">
-            We're a learning DAO creating quality web3 education.
+            We're a creators DAO producing web3 education.
           </span>
           <div className="py-5 inline-block">
             <a className="inline-flex items-center flex-row space-x-2 cursor-pointer hover-underline-animation text-white hover:text-pink-500 transition-all delay-100 font-bold text-3xl">
-              <span>Start Living The Life</span>
+              <span>Start Living The Web3 Life</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-8 w-8"
