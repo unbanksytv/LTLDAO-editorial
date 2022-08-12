@@ -152,8 +152,8 @@ const RegisterUser = () => {
     return (
       <div className="flex flex-col">
         <span className="text-white opacity-60 font-bold text-xl text-center mt-10">
-          You will need to buy minimum 10 DAI worth of LDAO governance token to
-          be a member of the DAO.
+          You will need 10 DAI+ worth of LDAO governance token to
+          be a member of the DAO. 
         </span>
         <div className="mb-6 flex flex-col justify-end">
           <span
