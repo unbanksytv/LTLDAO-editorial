@@ -430,9 +430,9 @@ const RegisterUser = () => {
       <div className="mx-auto py-10 max-w-3xl flex flex-row items-center justify-center">
         <div className="flex flex-col">
           <span className="text-white font-extrabold text-5xl text-center">
-            Just need few information to get{" "}
+            Membership Fee to join{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-pink-500">
-              Started
+              Live The Life
             </span>
           </span>
           {currentState === "ONE" ? renderStepOne() : renderStepTwo()}
