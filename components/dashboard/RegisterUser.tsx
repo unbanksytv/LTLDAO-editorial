@@ -432,7 +432,7 @@ const RegisterUser = () => {
           <span className="text-white font-extrabold text-5xl text-center">
             Membership Fee to join{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-pink-500">
-              Live The Life
+              LTL
             </span>
           </span>
           {currentState === "ONE" ? renderStepOne() : renderStepTwo()}
